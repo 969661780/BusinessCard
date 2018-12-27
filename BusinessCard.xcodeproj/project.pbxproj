@@ -1,0 +1,1133 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4079DC20EB5ACF00120F2C /* MTFillInMoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079DA20EB5ACF00120F2C /* MTFillInMoodViewController.m */; };
+		0E4079DD20EB5ACF00120F2C /* MTFillInMoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E4079DB20EB5ACF00120F2C /* MTFillInMoodViewController.xib */; };
+		0E4079EE20EB642500120F2C /* STConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079E220EB642500120F2C /* STConst.m */; };
+		0E4079EF20EB642500120F2C /* STUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079E420EB642500120F2C /* STUI.m */; };
+		0E4079F020EB642500120F2C /* UIImage+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079E620EB642500120F2C /* UIImage+ST.m */; };
+		0E4079F120EB642500120F2C /* UIView+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079E820EB642500120F2C /* UIView+ST.m */; };
+		0E4079F220EB642500120F2C /* STPhotoKitController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079EB20EB642500120F2C /* STPhotoKitController.m */; };
+		0E4079F320EB642500120F2C /* UIImagePickerController+ST.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079ED20EB642500120F2C /* UIImagePickerController+ST.m */; };
+		0E4079F820EB665D00120F2C /* MTPersonMood.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079F720EB665D00120F2C /* MTPersonMood.m */; };
+		0E4079FB20EB698700120F2C /* MTAddPutModeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079FA20EB698700120F2C /* MTAddPutModeTool.m */; };
+		0E407A0020EB7C2E00120F2C /* MTContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4079FE20EB7C2E00120F2C /* MTContactsViewController.m */; };
+		0E407A0120EB7C2E00120F2C /* MTContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E4079FF20EB7C2E00120F2C /* MTContactsViewController.xib */; };
+		0E87DF2820EA043E003FA0AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF2720EA043E003FA0AD /* AppDelegate.m */; };
+		0E87DF2E20EA043F003FA0AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87DF2C20EA043F003FA0AD /* Main.storyboard */; };
+		0E87DF3020EA0443003FA0AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E87DF2F20EA0443003FA0AD /* Assets.xcassets */; };
+		0E87DF3320EA0443003FA0AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E87DF3120EA0443003FA0AD /* LaunchScreen.storyboard */; };
+		0E87DF3620EA0443003FA0AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF3520EA0443003FA0AD /* main.m */; };
+		0E87DF4020EA0443003FA0AD /* BusinessCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF3F20EA0443003FA0AD /* BusinessCardTests.m */; };
+		0E87DF4B20EA0443003FA0AD /* BusinessCardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF4A20EA0443003FA0AD /* BusinessCardUITests.m */; };
+		0E87DF5F20EA0E19003FA0AD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF5920EA0E18003FA0AD /* UIView+Extension.m */; };
+		0E87DF6020EA0E19003FA0AD /* ZHNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF5C20EA0E18003FA0AD /* ZHNavViewController.m */; };
+		0E87DF6120EA0E19003FA0AD /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF5E20EA0E18003FA0AD /* UIBarButtonItem+Extension.m */; };
+		0E87DF6620EA0E9D003FA0AD /* MTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF6420EA0E9D003FA0AD /* MTHomeViewController.m */; };
+		0E87DF6720EA0E9D003FA0AD /* MTHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E87DF6520EA0E9D003FA0AD /* MTHomeViewController.xib */; };
+		0E87DF6D20EA1E21003FA0AD /* MTHomeCardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF6B20EA1E21003FA0AD /* MTHomeCardTableViewCell.m */; };
+		0E87DF6E20EA1E21003FA0AD /* MTHomeCardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E87DF6C20EA1E21003FA0AD /* MTHomeCardTableViewCell.xib */; };
+		0E87DF7120EA2491003FA0AD /* MTFootView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E87DF7020EA2491003FA0AD /* MTFootView.m */; };
+		0E97A4DF20ECA5B900D3E0BA /* ContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4C520ECA5B900D3E0BA /* ContactCell.m */; };
+		0E97A4E020ECA5B900D3E0BA /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A4C620ECA5B900D3E0BA /* ContactCell.xib */; };
+		0E97A4E120ECA5B900D3E0BA /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4C820ECA5B900D3E0BA /* Contacts.m */; };
+		0E97A4E220ECA5B900D3E0BA /* ContactsTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4CA20ECA5B900D3E0BA /* ContactsTableView.m */; };
+		0E97A4E320ECA5B900D3E0BA /* ContactsTableViewIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4CC20ECA5B900D3E0BA /* ContactsTableViewIndex.m */; };
+		0E97A4E520ECA5B900D3E0BA /* ChineseInclude.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4D120ECA5B900D3E0BA /* ChineseInclude.m */; };
+		0E97A4E620ECA5B900D3E0BA /* ChineseToPinyinResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4D320ECA5B900D3E0BA /* ChineseToPinyinResource.m */; };
+		0E97A4E720ECA5B900D3E0BA /* HanyuPinyinOutputFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4D520ECA5B900D3E0BA /* HanyuPinyinOutputFormat.m */; };
+		0E97A4E820ECA5B900D3E0BA /* NSString+PinYin4Cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4D720ECA5B900D3E0BA /* NSString+PinYin4Cocoa.m */; };
+		0E97A4E920ECA5B900D3E0BA /* PinyinFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4D920ECA5B900D3E0BA /* PinyinFormatter.m */; };
+		0E97A4EA20ECA5B900D3E0BA /* PinYinForObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4DB20ECA5B900D3E0BA /* PinYinForObjc.m */; };
+		0E97A4EB20ECA5B900D3E0BA /* PinyinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4DD20ECA5B900D3E0BA /* PinyinHelper.m */; };
+		0E97A4EC20ECA5B900D3E0BA /* unicode_to_hanyu_pinyin.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A4DE20ECA5B900D3E0BA /* unicode_to_hanyu_pinyin.txt */; };
+		0E97A4EE20ECB0D500D3E0BA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97A4ED20ECB0D500D3E0BA /* QuartzCore.framework */; };
+		0E97A4F120ECB0DF00D3E0BA /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97A4EF20ECB0DF00D3E0BA /* AddressBook.framework */; };
+		0E97A4F220ECB0DF00D3E0BA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97A4F020ECB0DF00D3E0BA /* AddressBookUI.framework */; };
+		0E97A4F420ECB0F000D3E0BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97A4F320ECB0F000D3E0BA /* CoreGraphics.framework */; };
+		0E97A4F620ECB0F500D3E0BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97A4F520ECB0F500D3E0BA /* UIKit.framework */; };
+		0E97A4F820ECB0FD00D3E0BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E97A4F720ECB0FD00D3E0BA /* Foundation.framework */; };
+		0E97A4FD20ECB6FA00D3E0BA /* MTDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A4FB20ECB6FA00D3E0BA /* MTDetailsViewController.m */; };
+		0E97A4FE20ECB6FA00D3E0BA /* MTDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A4FC20ECB6FA00D3E0BA /* MTDetailsViewController.xib */; };
+		0E97A50320ECB75500D3E0BA /* MTDetailsOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A50120ECB75500D3E0BA /* MTDetailsOneTableViewCell.m */; };
+		0E97A50420ECB75500D3E0BA /* MTDetailsOneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A50220ECB75500D3E0BA /* MTDetailsOneTableViewCell.xib */; };
+		0E97A50820ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A50620ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.m */; };
+		0E97A50920ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A50720ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.xib */; };
+		0E97A50D20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A50B20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.m */; };
+		0E97A50E20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A50C20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.xib */; };
+		0E97A51320ECC3E900D3E0BA /* MTModifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A51120ECC3E900D3E0BA /* MTModifyViewController.m */; };
+		0E97A51420ECC3E900D3E0BA /* MTModifyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A51220ECC3E900D3E0BA /* MTModifyViewController.xib */; };
+		0E97A51E20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A51C20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.m */; };
+		0E97A51F20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A51D20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.xib */; };
+		0E97A52320ECC61800D3E0BA /* MTModifyTelOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A52120ECC61800D3E0BA /* MTModifyTelOneTableViewCell.m */; };
+		0E97A52420ECC61800D3E0BA /* MTModifyTelOneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E97A52220ECC61800D3E0BA /* MTModifyTelOneTableViewCell.xib */; };
+		0E97A52720ECCF2000D3E0BA /* WBNativityShare.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E97A52620ECCF2000D3E0BA /* WBNativityShare.m */; };
+		0EFBAD7520EDB39300CBDB9C /* MTFillConViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFBAD7320EDB39300CBDB9C /* MTFillConViewController.m */; };
+		0EFBAD7620EDB39300CBDB9C /* MTFillConViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EFBAD7420EDB39300CBDB9C /* MTFillConViewController.xib */; };
+		2A52764E6DCD1FED58365624 /* libPods-BusinessCardUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0200139A680CB54A1534FC /* libPods-BusinessCardUITests.a */; };
+		3E8E935A326B3FD963F85110 /* libPods-BusinessCard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BC61D73E1F11D0165366C6 /* libPods-BusinessCard.a */; };
+		60794FB74BAECF7184760107 /* libPods-BusinessCardTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8B5F05B7F77F116E76D4D0 /* libPods-BusinessCardTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E87DF3C20EA0443003FA0AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E87DF1B20EA043E003FA0AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E87DF2220EA043E003FA0AD;
+			remoteInfo = BusinessCard;
+		};
+		0E87DF4720EA0443003FA0AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E87DF1B20EA043E003FA0AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E87DF2220EA043E003FA0AD;
+			remoteInfo = BusinessCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E4079D920EB5ACF00120F2C /* MTFillInMoodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFillInMoodViewController.h; sourceTree = "<group>"; };
+		0E4079DA20EB5ACF00120F2C /* MTFillInMoodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFillInMoodViewController.m; sourceTree = "<group>"; };
+		0E4079DB20EB5ACF00120F2C /* MTFillInMoodViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTFillInMoodViewController.xib; sourceTree = "<group>"; };
+		0E4079E020EB642500120F2C /* STConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConfig.h; sourceTree = "<group>"; };
+		0E4079E120EB642500120F2C /* STConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STConst.h; sourceTree = "<group>"; };
+		0E4079E220EB642500120F2C /* STConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STConst.m; sourceTree = "<group>"; };
+		0E4079E320EB642500120F2C /* STUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUI.h; sourceTree = "<group>"; };
+		0E4079E420EB642500120F2C /* STUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUI.m; sourceTree = "<group>"; };
+		0E4079E520EB642500120F2C /* UIImage+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ST.h"; sourceTree = "<group>"; };
+		0E4079E620EB642500120F2C /* UIImage+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ST.m"; sourceTree = "<group>"; };
+		0E4079E720EB642500120F2C /* UIView+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ST.h"; sourceTree = "<group>"; };
+		0E4079E820EB642500120F2C /* UIView+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ST.m"; sourceTree = "<group>"; };
+		0E4079EA20EB642500120F2C /* STPhotoKitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoKitController.h; sourceTree = "<group>"; };
+		0E4079EB20EB642500120F2C /* STPhotoKitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoKitController.m; sourceTree = "<group>"; };
+		0E4079EC20EB642500120F2C /* UIImagePickerController+ST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+ST.h"; sourceTree = "<group>"; };
+		0E4079ED20EB642500120F2C /* UIImagePickerController+ST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+ST.m"; sourceTree = "<group>"; };
+		0E4079F620EB665D00120F2C /* MTPersonMood.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPersonMood.h; sourceTree = "<group>"; };
+		0E4079F720EB665D00120F2C /* MTPersonMood.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPersonMood.m; sourceTree = "<group>"; };
+		0E4079F920EB698700120F2C /* MTAddPutModeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAddPutModeTool.h; sourceTree = "<group>"; };
+		0E4079FA20EB698700120F2C /* MTAddPutModeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAddPutModeTool.m; sourceTree = "<group>"; };
+		0E4079FD20EB7C2E00120F2C /* MTContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTContactsViewController.h; sourceTree = "<group>"; };
+		0E4079FE20EB7C2E00120F2C /* MTContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTContactsViewController.m; sourceTree = "<group>"; };
+		0E4079FF20EB7C2E00120F2C /* MTContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTContactsViewController.xib; sourceTree = "<group>"; };
+		0E87DF2320EA043E003FA0AD /* BusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87DF2620EA043E003FA0AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E87DF2720EA043E003FA0AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E87DF2D20EA043F003FA0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E87DF2F20EA0443003FA0AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E87DF3220EA0443003FA0AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E87DF3420EA0443003FA0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87DF3520EA0443003FA0AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E87DF3B20EA0443003FA0AD /* BusinessCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87DF3F20EA0443003FA0AD /* BusinessCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessCardTests.m; sourceTree = "<group>"; };
+		0E87DF4120EA0443003FA0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87DF4620EA0443003FA0AD /* BusinessCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E87DF4A20EA0443003FA0AD /* BusinessCardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessCardUITests.m; sourceTree = "<group>"; };
+		0E87DF4C20EA0443003FA0AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E87DF5920EA0E18003FA0AD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		0E87DF5A20EA0E18003FA0AD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		0E87DF5B20EA0E18003FA0AD /* ZHNavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNavViewController.h; sourceTree = "<group>"; };
+		0E87DF5C20EA0E18003FA0AD /* ZHNavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNavViewController.m; sourceTree = "<group>"; };
+		0E87DF5D20EA0E18003FA0AD /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		0E87DF5E20EA0E18003FA0AD /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		0E87DF6320EA0E9D003FA0AD /* MTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTHomeViewController.h; sourceTree = "<group>"; };
+		0E87DF6420EA0E9D003FA0AD /* MTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHomeViewController.m; sourceTree = "<group>"; };
+		0E87DF6520EA0E9D003FA0AD /* MTHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTHomeViewController.xib; sourceTree = "<group>"; };
+		0E87DF6820EA18AE003FA0AD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0E87DF6A20EA1E21003FA0AD /* MTHomeCardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTHomeCardTableViewCell.h; sourceTree = "<group>"; };
+		0E87DF6B20EA1E21003FA0AD /* MTHomeCardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTHomeCardTableViewCell.m; sourceTree = "<group>"; };
+		0E87DF6C20EA1E21003FA0AD /* MTHomeCardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTHomeCardTableViewCell.xib; sourceTree = "<group>"; };
+		0E87DF6F20EA2491003FA0AD /* MTFootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTFootView.h; sourceTree = "<group>"; };
+		0E87DF7020EA2491003FA0AD /* MTFootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTFootView.m; sourceTree = "<group>"; };
+		0E97A4C420ECA5B900D3E0BA /* ContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactCell.h; sourceTree = "<group>"; };
+		0E97A4C520ECA5B900D3E0BA /* ContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactCell.m; sourceTree = "<group>"; };
+		0E97A4C620ECA5B900D3E0BA /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		0E97A4C720ECA5B900D3E0BA /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		0E97A4C820ECA5B900D3E0BA /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		0E97A4C920ECA5B900D3E0BA /* ContactsTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableView.h; sourceTree = "<group>"; };
+		0E97A4CA20ECA5B900D3E0BA /* ContactsTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableView.m; sourceTree = "<group>"; };
+		0E97A4CB20ECA5B900D3E0BA /* ContactsTableViewIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewIndex.h; sourceTree = "<group>"; };
+		0E97A4CC20ECA5B900D3E0BA /* ContactsTableViewIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewIndex.m; sourceTree = "<group>"; };
+		0E97A4D020ECA5B900D3E0BA /* ChineseInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseInclude.h; sourceTree = "<group>"; };
+		0E97A4D120ECA5B900D3E0BA /* ChineseInclude.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseInclude.m; sourceTree = "<group>"; };
+		0E97A4D220ECA5B900D3E0BA /* ChineseToPinyinResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseToPinyinResource.h; sourceTree = "<group>"; };
+		0E97A4D320ECA5B900D3E0BA /* ChineseToPinyinResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseToPinyinResource.m; sourceTree = "<group>"; };
+		0E97A4D420ECA5B900D3E0BA /* HanyuPinyinOutputFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HanyuPinyinOutputFormat.h; sourceTree = "<group>"; };
+		0E97A4D520ECA5B900D3E0BA /* HanyuPinyinOutputFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HanyuPinyinOutputFormat.m; sourceTree = "<group>"; };
+		0E97A4D620ECA5B900D3E0BA /* NSString+PinYin4Cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin4Cocoa.h"; sourceTree = "<group>"; };
+		0E97A4D720ECA5B900D3E0BA /* NSString+PinYin4Cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin4Cocoa.m"; sourceTree = "<group>"; };
+		0E97A4D820ECA5B900D3E0BA /* PinyinFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinFormatter.h; sourceTree = "<group>"; };
+		0E97A4D920ECA5B900D3E0BA /* PinyinFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinFormatter.m; sourceTree = "<group>"; };
+		0E97A4DA20ECA5B900D3E0BA /* PinYinForObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinYinForObjc.h; sourceTree = "<group>"; };
+		0E97A4DB20ECA5B900D3E0BA /* PinYinForObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinYinForObjc.m; sourceTree = "<group>"; };
+		0E97A4DC20ECA5B900D3E0BA /* PinyinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinyinHelper.h; sourceTree = "<group>"; };
+		0E97A4DD20ECA5B900D3E0BA /* PinyinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinyinHelper.m; sourceTree = "<group>"; };
+		0E97A4DE20ECA5B900D3E0BA /* unicode_to_hanyu_pinyin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = unicode_to_hanyu_pinyin.txt; sourceTree = "<group>"; };
+		0E97A4ED20ECB0D500D3E0BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0E97A4EF20ECB0DF00D3E0BA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0E97A4F020ECB0DF00D3E0BA /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		0E97A4F320ECB0F000D3E0BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0E97A4F520ECB0F500D3E0BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0E97A4F720ECB0FD00D3E0BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0E97A4FA20ECB6FA00D3E0BA /* MTDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDetailsViewController.h; sourceTree = "<group>"; };
+		0E97A4FB20ECB6FA00D3E0BA /* MTDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDetailsViewController.m; sourceTree = "<group>"; };
+		0E97A4FC20ECB6FA00D3E0BA /* MTDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTDetailsViewController.xib; sourceTree = "<group>"; };
+		0E97A50020ECB75500D3E0BA /* MTDetailsOneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDetailsOneTableViewCell.h; sourceTree = "<group>"; };
+		0E97A50120ECB75500D3E0BA /* MTDetailsOneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDetailsOneTableViewCell.m; sourceTree = "<group>"; };
+		0E97A50220ECB75500D3E0BA /* MTDetailsOneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTDetailsOneTableViewCell.xib; sourceTree = "<group>"; };
+		0E97A50520ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDetailsyTwoTableViewCell.h; sourceTree = "<group>"; };
+		0E97A50620ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDetailsyTwoTableViewCell.m; sourceTree = "<group>"; };
+		0E97A50720ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTDetailsyTwoTableViewCell.xib; sourceTree = "<group>"; };
+		0E97A50A20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTDetailyThreeTableViewCell.h; sourceTree = "<group>"; };
+		0E97A50B20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTDetailyThreeTableViewCell.m; sourceTree = "<group>"; };
+		0E97A50C20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTDetailyThreeTableViewCell.xib; sourceTree = "<group>"; };
+		0E97A51020ECC3E900D3E0BA /* MTModifyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTModifyViewController.h; sourceTree = "<group>"; };
+		0E97A51120ECC3E900D3E0BA /* MTModifyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTModifyViewController.m; sourceTree = "<group>"; };
+		0E97A51220ECC3E900D3E0BA /* MTModifyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTModifyViewController.xib; sourceTree = "<group>"; };
+		0E97A51B20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTModifyMarkTableViewCell.h; sourceTree = "<group>"; };
+		0E97A51C20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTModifyMarkTableViewCell.m; sourceTree = "<group>"; };
+		0E97A51D20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTModifyMarkTableViewCell.xib; sourceTree = "<group>"; };
+		0E97A52020ECC61800D3E0BA /* MTModifyTelOneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTModifyTelOneTableViewCell.h; sourceTree = "<group>"; };
+		0E97A52120ECC61800D3E0BA /* MTModifyTelOneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTModifyTelOneTableViewCell.m; sourceTree = "<group>"; };
+		0E97A52220ECC61800D3E0BA /* MTModifyTelOneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTModifyTelOneTableViewCell.xib; sourceTree = "<group>"; };
+		0E97A52520ECCF2000D3E0BA /* WBNativityShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WBNativityShare.h; path = BusinessCard/Tools/WBNativityShare.h; sourceTree = SOURCE_ROOT; };
+		0E97A52620ECCF2000D3E0BA /* WBNativityShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WBNativityShare.m; path = BusinessCard/Tools/WBNativityShare.m; sourceTree = SOURCE_ROOT; };
+		0EFBAD7220EDB39300CBDB9C /* MTFillConViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTFillConViewController.h; sourceTree = "<group>"; };
+		0EFBAD7320EDB39300CBDB9C /* MTFillConViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTFillConViewController.m; sourceTree = "<group>"; };
+		0EFBAD7420EDB39300CBDB9C /* MTFillConViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MTFillConViewController.xib; sourceTree = "<group>"; };
+		4245ED3632EA43EB6E6651A9 /* Pods-BusinessCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCardTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BusinessCardTests/Pods-BusinessCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A6312489813C5624DB8169D /* Pods-BusinessCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCardTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BusinessCardTests/Pods-BusinessCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7629F6D7C5693EC1D62EF597 /* Pods-BusinessCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BusinessCard/Pods-BusinessCard.debug.xcconfig"; sourceTree = "<group>"; };
+		7775FEA63D1646C5C27A69F4 /* Pods-BusinessCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCard.release.xcconfig"; path = "Pods/Target Support Files/Pods-BusinessCard/Pods-BusinessCard.release.xcconfig"; sourceTree = "<group>"; };
+		7B6867B0A2C09A314F0469C6 /* Pods-BusinessCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCardUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BusinessCardUITests/Pods-BusinessCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D0200139A680CB54A1534FC /* libPods-BusinessCardUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BusinessCardUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A17A923511F8AEAB3576B2FF /* Pods-BusinessCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BusinessCardUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BusinessCardUITests/Pods-BusinessCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A5BC61D73E1F11D0165366C6 /* libPods-BusinessCard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BusinessCard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8B5F05B7F77F116E76D4D0 /* libPods-BusinessCardTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BusinessCardTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E87DF2020EA043E003FA0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E97A4F820ECB0FD00D3E0BA /* Foundation.framework in Frameworks */,
+				0E97A4F620ECB0F500D3E0BA /* UIKit.framework in Frameworks */,
+				0E97A4F420ECB0F000D3E0BA /* CoreGraphics.framework in Frameworks */,
+				0E97A4F120ECB0DF00D3E0BA /* AddressBook.framework in Frameworks */,
+				0E97A4F220ECB0DF00D3E0BA /* AddressBookUI.framework in Frameworks */,
+				0E97A4EE20ECB0D500D3E0BA /* QuartzCore.framework in Frameworks */,
+				3E8E935A326B3FD963F85110 /* libPods-BusinessCard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87DF3820EA0443003FA0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60794FB74BAECF7184760107 /* libPods-BusinessCardTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87DF4320EA0443003FA0AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A52764E6DCD1FED58365624 /* libPods-BusinessCardUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E4079D720EB5A5300120F2C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E87DF6320EA0E9D003FA0AD /* MTHomeViewController.h */,
+				0E87DF6420EA0E9D003FA0AD /* MTHomeViewController.m */,
+				0E87DF6520EA0E9D003FA0AD /* MTHomeViewController.xib */,
+				0E87DF6920EA1DAF003FA0AD /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E4079D820EB5A6100120F2C /* FillIn */ = {
+			isa = PBXGroup;
+			children = (
+				0E4079F520EB663E00120F2C /* Mode */,
+				0E4079D920EB5ACF00120F2C /* MTFillInMoodViewController.h */,
+				0E4079DA20EB5ACF00120F2C /* MTFillInMoodViewController.m */,
+				0E4079DB20EB5ACF00120F2C /* MTFillInMoodViewController.xib */,
+				0EFBAD7220EDB39300CBDB9C /* MTFillConViewController.h */,
+				0EFBAD7320EDB39300CBDB9C /* MTFillConViewController.m */,
+				0EFBAD7420EDB39300CBDB9C /* MTFillConViewController.xib */,
+			);
+			path = FillIn;
+			sourceTree = "<group>";
+		};
+		0E4079DE20EB641200120F2C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A4C320ECA5B900D3E0BA /* ContactsView */,
+				0E97A4CF20ECA5B900D3E0BA /* PinYin */,
+				0E4079DF20EB642500120F2C /* STConfig */,
+				0E4079E920EB642500120F2C /* STPhotoKit */,
+				0E4079F920EB698700120F2C /* MTAddPutModeTool.h */,
+				0E4079FA20EB698700120F2C /* MTAddPutModeTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		0E4079DF20EB642500120F2C /* STConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0E4079E020EB642500120F2C /* STConfig.h */,
+				0E4079E120EB642500120F2C /* STConst.h */,
+				0E4079E220EB642500120F2C /* STConst.m */,
+				0E4079E320EB642500120F2C /* STUI.h */,
+				0E4079E420EB642500120F2C /* STUI.m */,
+				0E4079E520EB642500120F2C /* UIImage+ST.h */,
+				0E4079E620EB642500120F2C /* UIImage+ST.m */,
+				0E4079E720EB642500120F2C /* UIView+ST.h */,
+				0E4079E820EB642500120F2C /* UIView+ST.m */,
+			);
+			path = STConfig;
+			sourceTree = "<group>";
+		};
+		0E4079E920EB642500120F2C /* STPhotoKit */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A52520ECCF2000D3E0BA /* WBNativityShare.h */,
+				0E97A52620ECCF2000D3E0BA /* WBNativityShare.m */,
+				0E4079EA20EB642500120F2C /* STPhotoKitController.h */,
+				0E4079EB20EB642500120F2C /* STPhotoKitController.m */,
+				0E4079EC20EB642500120F2C /* UIImagePickerController+ST.h */,
+				0E4079ED20EB642500120F2C /* UIImagePickerController+ST.m */,
+			);
+			path = STPhotoKit;
+			sourceTree = "<group>";
+		};
+		0E4079F520EB663E00120F2C /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				0E4079F620EB665D00120F2C /* MTPersonMood.h */,
+				0E4079F720EB665D00120F2C /* MTPersonMood.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		0E4079FC20EB7B0900120F2C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				0E4079FD20EB7C2E00120F2C /* MTContactsViewController.h */,
+				0E4079FE20EB7C2E00120F2C /* MTContactsViewController.m */,
+				0E4079FF20EB7C2E00120F2C /* MTContactsViewController.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		0E87DF1A20EA043E003FA0AD = {
+			isa = PBXGroup;
+			children = (
+				0E87DF2520EA043E003FA0AD /* BusinessCard */,
+				0E87DF3E20EA0443003FA0AD /* BusinessCardTests */,
+				0E87DF4920EA0443003FA0AD /* BusinessCardUITests */,
+				0E87DF2420EA043E003FA0AD /* Products */,
+				9006DB1050ED9C9B4FFED58A /* Pods */,
+				531A924E46F8399FE0D7389B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E87DF2420EA043E003FA0AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E87DF2320EA043E003FA0AD /* BusinessCard.app */,
+				0E87DF3B20EA0443003FA0AD /* BusinessCardTests.xctest */,
+				0E87DF4620EA0443003FA0AD /* BusinessCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E87DF2520EA043E003FA0AD /* BusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				0E4079DE20EB641200120F2C /* Tools */,
+				0E87DF6220EA0E70003FA0AD /* ViewController */,
+				0E87DF5820EA0DAF003FA0AD /* Main */,
+				0E87DF2620EA043E003FA0AD /* AppDelegate.h */,
+				0E87DF2720EA043E003FA0AD /* AppDelegate.m */,
+				0E87DF2C20EA043F003FA0AD /* Main.storyboard */,
+				0E87DF2F20EA0443003FA0AD /* Assets.xcassets */,
+				0E87DF3120EA0443003FA0AD /* LaunchScreen.storyboard */,
+				0E87DF3420EA0443003FA0AD /* Info.plist */,
+				0E87DF3520EA0443003FA0AD /* main.m */,
+				0E87DF6820EA18AE003FA0AD /* PrefixHeader.pch */,
+			);
+			path = BusinessCard;
+			sourceTree = "<group>";
+		};
+		0E87DF3E20EA0443003FA0AD /* BusinessCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E87DF3F20EA0443003FA0AD /* BusinessCardTests.m */,
+				0E87DF4120EA0443003FA0AD /* Info.plist */,
+			);
+			path = BusinessCardTests;
+			sourceTree = "<group>";
+		};
+		0E87DF4920EA0443003FA0AD /* BusinessCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E87DF4A20EA0443003FA0AD /* BusinessCardUITests.m */,
+				0E87DF4C20EA0443003FA0AD /* Info.plist */,
+			);
+			path = BusinessCardUITests;
+			sourceTree = "<group>";
+		};
+		0E87DF5820EA0DAF003FA0AD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				0E87DF5D20EA0E18003FA0AD /* UIBarButtonItem+Extension.h */,
+				0E87DF5E20EA0E18003FA0AD /* UIBarButtonItem+Extension.m */,
+				0E87DF5A20EA0E18003FA0AD /* UIView+Extension.h */,
+				0E87DF5920EA0E18003FA0AD /* UIView+Extension.m */,
+				0E87DF5B20EA0E18003FA0AD /* ZHNavViewController.h */,
+				0E87DF5C20EA0E18003FA0AD /* ZHNavViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		0E87DF6220EA0E70003FA0AD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A50F20ECC3BF00D3E0BA /* Modify */,
+				0E97A4F920ECB6DA00D3E0BA /* Deaily */,
+				0E4079FC20EB7B0900120F2C /* Contacts */,
+				0E4079D820EB5A6100120F2C /* FillIn */,
+				0E4079D720EB5A5300120F2C /* Home */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0E87DF6920EA1DAF003FA0AD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E87DF6F20EA2491003FA0AD /* MTFootView.h */,
+				0E87DF7020EA2491003FA0AD /* MTFootView.m */,
+				0E87DF6A20EA1E21003FA0AD /* MTHomeCardTableViewCell.h */,
+				0E87DF6B20EA1E21003FA0AD /* MTHomeCardTableViewCell.m */,
+				0E87DF6C20EA1E21003FA0AD /* MTHomeCardTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E97A4C320ECA5B900D3E0BA /* ContactsView */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A4C420ECA5B900D3E0BA /* ContactCell.h */,
+				0E97A4C520ECA5B900D3E0BA /* ContactCell.m */,
+				0E97A4C620ECA5B900D3E0BA /* ContactCell.xib */,
+				0E97A4C720ECA5B900D3E0BA /* Contacts.h */,
+				0E97A4C820ECA5B900D3E0BA /* Contacts.m */,
+				0E97A4C920ECA5B900D3E0BA /* ContactsTableView.h */,
+				0E97A4CA20ECA5B900D3E0BA /* ContactsTableView.m */,
+				0E97A4CB20ECA5B900D3E0BA /* ContactsTableViewIndex.h */,
+				0E97A4CC20ECA5B900D3E0BA /* ContactsTableViewIndex.m */,
+			);
+			path = ContactsView;
+			sourceTree = "<group>";
+		};
+		0E97A4CF20ECA5B900D3E0BA /* PinYin */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A4D020ECA5B900D3E0BA /* ChineseInclude.h */,
+				0E97A4D120ECA5B900D3E0BA /* ChineseInclude.m */,
+				0E97A4D220ECA5B900D3E0BA /* ChineseToPinyinResource.h */,
+				0E97A4D320ECA5B900D3E0BA /* ChineseToPinyinResource.m */,
+				0E97A4D420ECA5B900D3E0BA /* HanyuPinyinOutputFormat.h */,
+				0E97A4D520ECA5B900D3E0BA /* HanyuPinyinOutputFormat.m */,
+				0E97A4D620ECA5B900D3E0BA /* NSString+PinYin4Cocoa.h */,
+				0E97A4D720ECA5B900D3E0BA /* NSString+PinYin4Cocoa.m */,
+				0E97A4D820ECA5B900D3E0BA /* PinyinFormatter.h */,
+				0E97A4D920ECA5B900D3E0BA /* PinyinFormatter.m */,
+				0E97A4DA20ECA5B900D3E0BA /* PinYinForObjc.h */,
+				0E97A4DB20ECA5B900D3E0BA /* PinYinForObjc.m */,
+				0E97A4DC20ECA5B900D3E0BA /* PinyinHelper.h */,
+				0E97A4DD20ECA5B900D3E0BA /* PinyinHelper.m */,
+				0E97A4DE20ECA5B900D3E0BA /* unicode_to_hanyu_pinyin.txt */,
+			);
+			path = PinYin;
+			sourceTree = "<group>";
+		};
+		0E97A4F920ECB6DA00D3E0BA /* Deaily */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A4FF20ECB73000D3E0BA /* Views */,
+				0E97A4FA20ECB6FA00D3E0BA /* MTDetailsViewController.h */,
+				0E97A4FB20ECB6FA00D3E0BA /* MTDetailsViewController.m */,
+				0E97A4FC20ECB6FA00D3E0BA /* MTDetailsViewController.xib */,
+			);
+			path = Deaily;
+			sourceTree = "<group>";
+		};
+		0E97A4FF20ECB73000D3E0BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A50020ECB75500D3E0BA /* MTDetailsOneTableViewCell.h */,
+				0E97A50120ECB75500D3E0BA /* MTDetailsOneTableViewCell.m */,
+				0E97A50220ECB75500D3E0BA /* MTDetailsOneTableViewCell.xib */,
+				0E97A50520ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.h */,
+				0E97A50620ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.m */,
+				0E97A50720ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.xib */,
+				0E97A50A20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.h */,
+				0E97A50B20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.m */,
+				0E97A50C20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E97A50F20ECC3BF00D3E0BA /* Modify */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A51A20ECC48C00D3E0BA /* View */,
+				0E97A51020ECC3E900D3E0BA /* MTModifyViewController.h */,
+				0E97A51120ECC3E900D3E0BA /* MTModifyViewController.m */,
+				0E97A51220ECC3E900D3E0BA /* MTModifyViewController.xib */,
+			);
+			path = Modify;
+			sourceTree = "<group>";
+		};
+		0E97A51A20ECC48C00D3E0BA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A51B20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.h */,
+				0E97A51C20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.m */,
+				0E97A51D20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.xib */,
+				0E97A52020ECC61800D3E0BA /* MTModifyTelOneTableViewCell.h */,
+				0E97A52120ECC61800D3E0BA /* MTModifyTelOneTableViewCell.m */,
+				0E97A52220ECC61800D3E0BA /* MTModifyTelOneTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		531A924E46F8399FE0D7389B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E97A4F720ECB0FD00D3E0BA /* Foundation.framework */,
+				0E97A4F520ECB0F500D3E0BA /* UIKit.framework */,
+				0E97A4F320ECB0F000D3E0BA /* CoreGraphics.framework */,
+				0E97A4EF20ECB0DF00D3E0BA /* AddressBook.framework */,
+				0E97A4F020ECB0DF00D3E0BA /* AddressBookUI.framework */,
+				0E97A4ED20ECB0D500D3E0BA /* QuartzCore.framework */,
+				A5BC61D73E1F11D0165366C6 /* libPods-BusinessCard.a */,
+				DA8B5F05B7F77F116E76D4D0 /* libPods-BusinessCardTests.a */,
+				7D0200139A680CB54A1534FC /* libPods-BusinessCardUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9006DB1050ED9C9B4FFED58A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7629F6D7C5693EC1D62EF597 /* Pods-BusinessCard.debug.xcconfig */,
+				7775FEA63D1646C5C27A69F4 /* Pods-BusinessCard.release.xcconfig */,
+				6A6312489813C5624DB8169D /* Pods-BusinessCardTests.debug.xcconfig */,
+				4245ED3632EA43EB6E6651A9 /* Pods-BusinessCardTests.release.xcconfig */,
+				A17A923511F8AEAB3576B2FF /* Pods-BusinessCardUITests.debug.xcconfig */,
+				7B6867B0A2C09A314F0469C6 /* Pods-BusinessCardUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E87DF2220EA043E003FA0AD /* BusinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87DF4F20EA0443003FA0AD /* Build configuration list for PBXNativeTarget "BusinessCard" */;
+			buildPhases = (
+				4503436FB4294000CA69E4B6 /* [CP] Check Pods Manifest.lock */,
+				0E87DF1F20EA043E003FA0AD /* Sources */,
+				0E87DF2020EA043E003FA0AD /* Frameworks */,
+				0E87DF2120EA043E003FA0AD /* Resources */,
+				D46FB758F6C60C5709294694 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessCard;
+			productName = BusinessCard;
+			productReference = 0E87DF2320EA043E003FA0AD /* BusinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E87DF3A20EA0443003FA0AD /* BusinessCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87DF5220EA0443003FA0AD /* Build configuration list for PBXNativeTarget "BusinessCardTests" */;
+			buildPhases = (
+				F51C1B7028B02DB99CCB2C56 /* [CP] Check Pods Manifest.lock */,
+				0E87DF3720EA0443003FA0AD /* Sources */,
+				0E87DF3820EA0443003FA0AD /* Frameworks */,
+				0E87DF3920EA0443003FA0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E87DF3D20EA0443003FA0AD /* PBXTargetDependency */,
+			);
+			name = BusinessCardTests;
+			productName = BusinessCardTests;
+			productReference = 0E87DF3B20EA0443003FA0AD /* BusinessCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E87DF4520EA0443003FA0AD /* BusinessCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E87DF5520EA0443003FA0AD /* Build configuration list for PBXNativeTarget "BusinessCardUITests" */;
+			buildPhases = (
+				4F8C8F11F3CF36614B4945C9 /* [CP] Check Pods Manifest.lock */,
+				0E87DF4220EA0443003FA0AD /* Sources */,
+				0E87DF4320EA0443003FA0AD /* Frameworks */,
+				0E87DF4420EA0443003FA0AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E87DF4820EA0443003FA0AD /* PBXTargetDependency */,
+			);
+			name = BusinessCardUITests;
+			productName = BusinessCardUITests;
+			productReference = 0E87DF4620EA0443003FA0AD /* BusinessCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E87DF1B20EA043E003FA0AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "mt y";
+				TargetAttributes = {
+					0E87DF2220EA043E003FA0AD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0E87DF3A20EA0443003FA0AD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0E87DF2220EA043E003FA0AD;
+					};
+					0E87DF4520EA0443003FA0AD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0E87DF2220EA043E003FA0AD;
+					};
+				};
+			};
+			buildConfigurationList = 0E87DF1E20EA043E003FA0AD /* Build configuration list for PBXProject "BusinessCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E87DF1A20EA043E003FA0AD;
+			productRefGroup = 0E87DF2420EA043E003FA0AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E87DF2220EA043E003FA0AD /* BusinessCard */,
+				0E87DF3A20EA0443003FA0AD /* BusinessCardTests */,
+				0E87DF4520EA0443003FA0AD /* BusinessCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E87DF2120EA043E003FA0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E97A50920ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.xib in Resources */,
+				0E87DF3320EA0443003FA0AD /* LaunchScreen.storyboard in Resources */,
+				0E87DF3020EA0443003FA0AD /* Assets.xcassets in Resources */,
+				0E97A52420ECC61800D3E0BA /* MTModifyTelOneTableViewCell.xib in Resources */,
+				0E4079DD20EB5ACF00120F2C /* MTFillInMoodViewController.xib in Resources */,
+				0E97A50420ECB75500D3E0BA /* MTDetailsOneTableViewCell.xib in Resources */,
+				0EFBAD7620EDB39300CBDB9C /* MTFillConViewController.xib in Resources */,
+				0E97A51F20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.xib in Resources */,
+				0E97A4EC20ECA5B900D3E0BA /* unicode_to_hanyu_pinyin.txt in Resources */,
+				0E87DF6E20EA1E21003FA0AD /* MTHomeCardTableViewCell.xib in Resources */,
+				0E97A4E020ECA5B900D3E0BA /* ContactCell.xib in Resources */,
+				0E407A0120EB7C2E00120F2C /* MTContactsViewController.xib in Resources */,
+				0E97A51420ECC3E900D3E0BA /* MTModifyViewController.xib in Resources */,
+				0E87DF6720EA0E9D003FA0AD /* MTHomeViewController.xib in Resources */,
+				0E97A4FE20ECB6FA00D3E0BA /* MTDetailsViewController.xib in Resources */,
+				0E87DF2E20EA043F003FA0AD /* Main.storyboard in Resources */,
+				0E97A50E20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87DF3920EA0443003FA0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87DF4420EA0443003FA0AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4503436FB4294000CA69E4B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusinessCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F8C8F11F3CF36614B4945C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusinessCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D46FB758F6C60C5709294694 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BusinessCard/Pods-BusinessCard-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BusinessCard/Pods-BusinessCard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F51C1B7028B02DB99CCB2C56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BusinessCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E87DF1F20EA043E003FA0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E97A4EB20ECA5B900D3E0BA /* PinyinHelper.m in Sources */,
+				0E4079F820EB665D00120F2C /* MTPersonMood.m in Sources */,
+				0E97A4EA20ECA5B900D3E0BA /* PinYinForObjc.m in Sources */,
+				0E4079F220EB642500120F2C /* STPhotoKitController.m in Sources */,
+				0E97A52720ECCF2000D3E0BA /* WBNativityShare.m in Sources */,
+				0E4079EE20EB642500120F2C /* STConst.m in Sources */,
+				0E87DF6120EA0E19003FA0AD /* UIBarButtonItem+Extension.m in Sources */,
+				0E97A4E720ECA5B900D3E0BA /* HanyuPinyinOutputFormat.m in Sources */,
+				0E97A51320ECC3E900D3E0BA /* MTModifyViewController.m in Sources */,
+				0E87DF6020EA0E19003FA0AD /* ZHNavViewController.m in Sources */,
+				0E97A4E220ECA5B900D3E0BA /* ContactsTableView.m in Sources */,
+				0EFBAD7520EDB39300CBDB9C /* MTFillConViewController.m in Sources */,
+				0E97A4E520ECA5B900D3E0BA /* ChineseInclude.m in Sources */,
+				0E4079F120EB642500120F2C /* UIView+ST.m in Sources */,
+				0E97A50D20ECB79100D3E0BA /* MTDetailyThreeTableViewCell.m in Sources */,
+				0E87DF6620EA0E9D003FA0AD /* MTHomeViewController.m in Sources */,
+				0E97A4DF20ECA5B900D3E0BA /* ContactCell.m in Sources */,
+				0E97A4E920ECA5B900D3E0BA /* PinyinFormatter.m in Sources */,
+				0E97A4E620ECA5B900D3E0BA /* ChineseToPinyinResource.m in Sources */,
+				0E97A4E820ECA5B900D3E0BA /* NSString+PinYin4Cocoa.m in Sources */,
+				0E97A4E120ECA5B900D3E0BA /* Contacts.m in Sources */,
+				0E4079FB20EB698700120F2C /* MTAddPutModeTool.m in Sources */,
+				0E97A4E320ECA5B900D3E0BA /* ContactsTableViewIndex.m in Sources */,
+				0E97A51E20ECC4D300D3E0BA /* MTModifyMarkTableViewCell.m in Sources */,
+				0E87DF7120EA2491003FA0AD /* MTFootView.m in Sources */,
+				0E97A50820ECB77B00D3E0BA /* MTDetailsyTwoTableViewCell.m in Sources */,
+				0E87DF3620EA0443003FA0AD /* main.m in Sources */,
+				0E407A0020EB7C2E00120F2C /* MTContactsViewController.m in Sources */,
+				0E4079F020EB642500120F2C /* UIImage+ST.m in Sources */,
+				0E87DF5F20EA0E19003FA0AD /* UIView+Extension.m in Sources */,
+				0E87DF2820EA043E003FA0AD /* AppDelegate.m in Sources */,
+				0E87DF6D20EA1E21003FA0AD /* MTHomeCardTableViewCell.m in Sources */,
+				0E4079DC20EB5ACF00120F2C /* MTFillInMoodViewController.m in Sources */,
+				0E97A52320ECC61800D3E0BA /* MTModifyTelOneTableViewCell.m in Sources */,
+				0E4079EF20EB642500120F2C /* STUI.m in Sources */,
+				0E97A4FD20ECB6FA00D3E0BA /* MTDetailsViewController.m in Sources */,
+				0E97A50320ECB75500D3E0BA /* MTDetailsOneTableViewCell.m in Sources */,
+				0E4079F320EB642500120F2C /* UIImagePickerController+ST.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87DF3720EA0443003FA0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87DF4020EA0443003FA0AD /* BusinessCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E87DF4220EA0443003FA0AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E87DF4B20EA0443003FA0AD /* BusinessCardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E87DF3D20EA0443003FA0AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E87DF2220EA043E003FA0AD /* BusinessCard */;
+			targetProxy = 0E87DF3C20EA0443003FA0AD /* PBXContainerItemProxy */;
+		};
+		0E87DF4820EA0443003FA0AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E87DF2220EA043E003FA0AD /* BusinessCard */;
+			targetProxy = 0E87DF4720EA0443003FA0AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E87DF2C20EA043F003FA0AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E87DF2D20EA043F003FA0AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E87DF3120EA0443003FA0AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E87DF3220EA0443003FA0AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E87DF4D20EA0443003FA0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E87DF4E20EA0443003FA0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E87DF5020EA0443003FA0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7629F6D7C5693EC1D62EF597 /* Pods-BusinessCard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESH5D59Q34;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BusinessCard/PrefixHeader.pch";
+				INFOPLIST_FILE = BusinessCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0E87DF5120EA0443003FA0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7775FEA63D1646C5C27A69F4 /* Pods-BusinessCard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ESH5D59Q34;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BusinessCard/PrefixHeader.pch";
+				INFOPLIST_FILE = BusinessCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0E87DF5320EA0443003FA0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A6312489813C5624DB8169D /* Pods-BusinessCardTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BusinessCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BusinessCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessCard.app/BusinessCard";
+			};
+			name = Debug;
+		};
+		0E87DF5420EA0443003FA0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4245ED3632EA43EB6E6651A9 /* Pods-BusinessCardTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BusinessCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BusinessCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessCard.app/BusinessCard";
+			};
+			name = Release;
+		};
+		0E87DF5620EA0443003FA0AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A17A923511F8AEAB3576B2FF /* Pods-BusinessCardUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BusinessCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BusinessCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BusinessCard;
+			};
+			name = Debug;
+		};
+		0E87DF5720EA0443003FA0AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6867B0A2C09A314F0469C6 /* Pods-BusinessCardUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BusinessCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com..BusinessCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BusinessCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E87DF1E20EA043E003FA0AD /* Build configuration list for PBXProject "BusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87DF4D20EA0443003FA0AD /* Debug */,
+				0E87DF4E20EA0443003FA0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87DF4F20EA0443003FA0AD /* Build configuration list for PBXNativeTarget "BusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87DF5020EA0443003FA0AD /* Debug */,
+				0E87DF5120EA0443003FA0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87DF5220EA0443003FA0AD /* Build configuration list for PBXNativeTarget "BusinessCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87DF5320EA0443003FA0AD /* Debug */,
+				0E87DF5420EA0443003FA0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E87DF5520EA0443003FA0AD /* Build configuration list for PBXNativeTarget "BusinessCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E87DF5620EA0443003FA0AD /* Debug */,
+				0E87DF5720EA0443003FA0AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E87DF1B20EA043E003FA0AD /* Project object */;
+}
